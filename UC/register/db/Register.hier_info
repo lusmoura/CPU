@@ -1,0 +1,62 @@
+|Register
+Q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Clear => inst.ACLR
+Clear => inst1.ACLR
+Clear => inst2.ACLR
+Clear => inst3.ACLR
+reset => debouncer:inst6.rst_n
+in_clock => debouncer:inst6.inb
+internal_clock => debouncer:inst6.clk
+D1 => inst.DATAIN
+Q2 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+D2 => inst1.DATAIN
+Q3 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D3 => inst2.DATAIN
+Q4 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D4 => inst3.DATAIN
+
+
+|Register|debouncer:inst6
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => outb~reg0.CLK
+clk => intermediate.CLK
+rst_n => counter[0].ACLR
+rst_n => counter[1].ACLR
+rst_n => counter[2].ACLR
+rst_n => counter[3].ACLR
+rst_n => counter[4].ACLR
+rst_n => counter[5].ACLR
+rst_n => counter[6].ACLR
+rst_n => counter[7].ACLR
+rst_n => counter[8].ACLR
+rst_n => counter[9].ACLR
+rst_n => counter[10].ACLR
+rst_n => counter[11].ACLR
+rst_n => counter[12].ACLR
+rst_n => counter[13].ACLR
+rst_n => counter[14].ACLR
+rst_n => counter[15].ACLR
+rst_n => outb~reg0.ALOAD
+rst_n => intermediate.ALOAD
+inb => always0.IN1
+inb => outb~reg0.ADATA
+inb => intermediate.ADATA
+inb => intermediate.DATAIN
+outb <= outb~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

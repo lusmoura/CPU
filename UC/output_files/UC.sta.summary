@@ -1,0 +1,453 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'ManualReset'
+Slack : -5.863
+TNS   : -20.457
+
+Type  : Slow 1100mV 85C Model Setup 'debouncer:instDB|outb'
+Slack : -5.813
+TNS   : -67.906
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -3.272
+TNS   : -35.279
+
+Type  : Slow 1100mV 85C Model Setup 'ContadorAssincrono:inst23|inst22'
+Slack : -1.841
+TNS   : -1.841
+
+Type  : Slow 1100mV 85C Model Setup 'ContadorAssincrono:inst23|inst21'
+Slack : -1.734
+TNS   : -1.734
+
+Type  : Slow 1100mV 85C Model Setup 'ContadorAssincrono:inst23|inst30'
+Slack : -0.871
+TNS   : -1.741
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.225
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ContadorAssincrono:inst23|inst30'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ContadorAssincrono:inst23|inst21'
+Slack : 0.307
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ContadorAssincrono:inst23|inst22'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'debouncer:instDB|outb'
+Slack : 0.881
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'ManualReset'
+Slack : 1.047
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Recovery 'ContadorAssincrono:inst23|inst30'
+Slack : -7.179
+TNS   : -14.354
+
+Type  : Slow 1100mV 85C Model Recovery 'ContadorAssincrono:inst23|inst22'
+Slack : -5.329
+TNS   : -5.329
+
+Type  : Slow 1100mV 85C Model Recovery 'ContadorAssincrono:inst23|inst21'
+Slack : -4.875
+TNS   : -4.875
+
+Type  : Slow 1100mV 85C Model Recovery 'debouncer:instDB|outb'
+Slack : -4.608
+TNS   : -34.838
+
+Type  : Slow 1100mV 85C Model Recovery 'ManualReset'
+Slack : -4.489
+TNS   : -16.377
+
+Type  : Slow 1100mV 85C Model Removal 'ManualReset'
+Slack : -0.800
+TNS   : -1.227
+
+Type  : Slow 1100mV 85C Model Removal 'debouncer:instDB|outb'
+Slack : 1.132
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'ContadorAssincrono:inst23|inst21'
+Slack : 1.990
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'ContadorAssincrono:inst23|inst22'
+Slack : 2.532
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Removal 'ContadorAssincrono:inst23|inst30'
+Slack : 3.641
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'debouncer:instDB|outb'
+Slack : -2.636
+TNS   : -45.701
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.631
+TNS   : -16.177
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ManualReset'
+Slack : -0.538
+TNS   : -3.430
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst30'
+Slack : -0.538
+TNS   : -1.557
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst22'
+Slack : -0.538
+TNS   : -0.862
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst21'
+Slack : -0.538
+TNS   : -0.782
+
+Type  : Slow 1100mV 0C Model Setup 'debouncer:instDB|outb'
+Slack : -5.948
+TNS   : -68.574
+
+Type  : Slow 1100mV 0C Model Setup 'ManualReset'
+Slack : -5.842
+TNS   : -19.786
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -3.496
+TNS   : -35.623
+
+Type  : Slow 1100mV 0C Model Setup 'ContadorAssincrono:inst23|inst22'
+Slack : -1.857
+TNS   : -1.857
+
+Type  : Slow 1100mV 0C Model Setup 'ContadorAssincrono:inst23|inst21'
+Slack : -1.816
+TNS   : -1.816
+
+Type  : Slow 1100mV 0C Model Setup 'ContadorAssincrono:inst23|inst30'
+Slack : -0.774
+TNS   : -1.546
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ContadorAssincrono:inst23|inst30'
+Slack : 0.290
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ContadorAssincrono:inst23|inst21'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ContadorAssincrono:inst23|inst22'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'debouncer:instDB|outb'
+Slack : 0.738
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'ManualReset'
+Slack : 0.756
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Recovery 'ContadorAssincrono:inst23|inst30'
+Slack : -6.914
+TNS   : -13.824
+
+Type  : Slow 1100mV 0C Model Recovery 'ContadorAssincrono:inst23|inst22'
+Slack : -5.164
+TNS   : -5.164
+
+Type  : Slow 1100mV 0C Model Recovery 'debouncer:instDB|outb'
+Slack : -4.784
+TNS   : -35.161
+
+Type  : Slow 1100mV 0C Model Recovery 'ContadorAssincrono:inst23|inst21'
+Slack : -4.766
+TNS   : -4.766
+
+Type  : Slow 1100mV 0C Model Recovery 'ManualReset'
+Slack : -4.512
+TNS   : -15.896
+
+Type  : Slow 1100mV 0C Model Removal 'ManualReset'
+Slack : -0.790
+TNS   : -1.478
+
+Type  : Slow 1100mV 0C Model Removal 'debouncer:instDB|outb'
+Slack : 1.123
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'ContadorAssincrono:inst23|inst21'
+Slack : 2.126
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'ContadorAssincrono:inst23|inst22'
+Slack : 2.603
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Removal 'ContadorAssincrono:inst23|inst30'
+Slack : 3.661
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'debouncer:instDB|outb'
+Slack : -2.636
+TNS   : -45.594
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.644
+TNS   : -14.498
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ManualReset'
+Slack : -0.538
+TNS   : -3.408
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst30'
+Slack : -0.538
+TNS   : -1.551
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst22'
+Slack : -0.538
+TNS   : -0.811
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst21'
+Slack : -0.538
+TNS   : -0.783
+
+Type  : Fast 1100mV 85C Model Setup 'ManualReset'
+Slack : -3.094
+TNS   : -10.857
+
+Type  : Fast 1100mV 85C Model Setup 'debouncer:instDB|outb'
+Slack : -3.088
+TNS   : -33.523
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50'
+Slack : -2.117
+TNS   : -8.493
+
+Type  : Fast 1100mV 85C Model Setup 'ContadorAssincrono:inst23|inst22'
+Slack : -0.875
+TNS   : -0.875
+
+Type  : Fast 1100mV 85C Model Setup 'ContadorAssincrono:inst23|inst21'
+Slack : -0.865
+TNS   : -0.865
+
+Type  : Fast 1100mV 85C Model Setup 'ContadorAssincrono:inst23|inst30'
+Slack : -0.083
+TNS   : -0.164
+
+Type  : Fast 1100mV 85C Model Hold 'ContadorAssincrono:inst23|inst21'
+Slack : 0.071
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ContadorAssincrono:inst23|inst22'
+Slack : 0.075
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ContadorAssincrono:inst23|inst30'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'debouncer:instDB|outb'
+Slack : 0.213
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'ManualReset'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Recovery 'ContadorAssincrono:inst23|inst30'
+Slack : -3.714
+TNS   : -7.427
+
+Type  : Fast 1100mV 85C Model Recovery 'ContadorAssincrono:inst23|inst22'
+Slack : -2.822
+TNS   : -2.822
+
+Type  : Fast 1100mV 85C Model Recovery 'ContadorAssincrono:inst23|inst21'
+Slack : -2.632
+TNS   : -2.632
+
+Type  : Fast 1100mV 85C Model Recovery 'debouncer:instDB|outb'
+Slack : -2.267
+TNS   : -17.757
+
+Type  : Fast 1100mV 85C Model Recovery 'ManualReset'
+Slack : -1.949
+TNS   : -7.011
+
+Type  : Fast 1100mV 85C Model Removal 'ManualReset'
+Slack : -0.741
+TNS   : -1.868
+
+Type  : Fast 1100mV 85C Model Removal 'debouncer:instDB|outb'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'ContadorAssincrono:inst23|inst21'
+Slack : 0.866
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'ContadorAssincrono:inst23|inst22'
+Slack : 1.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Removal 'ContadorAssincrono:inst23|inst30'
+Slack : 1.723
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'debouncer:instDB|outb'
+Slack : -2.174
+TNS   : -30.962
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.709
+TNS   : -9.275
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ManualReset'
+Slack : -0.405
+TNS   : -1.419
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst22'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst21'
+Slack : 0.153
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst30'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'debouncer:instDB|outb'
+Slack : -2.914
+TNS   : -31.434
+
+Type  : Fast 1100mV 0C Model Setup 'ManualReset'
+Slack : -2.627
+TNS   : -9.023
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50'
+Slack : -1.810
+TNS   : -6.937
+
+Type  : Fast 1100mV 0C Model Setup 'ContadorAssincrono:inst23|inst21'
+Slack : -0.803
+TNS   : -0.803
+
+Type  : Fast 1100mV 0C Model Setup 'ContadorAssincrono:inst23|inst22'
+Slack : -0.791
+TNS   : -0.791
+
+Type  : Fast 1100mV 0C Model Setup 'ContadorAssincrono:inst23|inst30'
+Slack : -0.026
+TNS   : -0.051
+
+Type  : Fast 1100mV 0C Model Hold 'ContadorAssincrono:inst23|inst22'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ContadorAssincrono:inst23|inst21'
+Slack : 0.048
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'debouncer:instDB|outb'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ContadorAssincrono:inst23|inst30'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50'
+Slack : 0.185
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'ManualReset'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Recovery 'ContadorAssincrono:inst23|inst30'
+Slack : -3.338
+TNS   : -6.676
+
+Type  : Fast 1100mV 0C Model Recovery 'ContadorAssincrono:inst23|inst22'
+Slack : -2.573
+TNS   : -2.573
+
+Type  : Fast 1100mV 0C Model Recovery 'ContadorAssincrono:inst23|inst21'
+Slack : -2.413
+TNS   : -2.413
+
+Type  : Fast 1100mV 0C Model Recovery 'debouncer:instDB|outb'
+Slack : -2.195
+TNS   : -16.886
+
+Type  : Fast 1100mV 0C Model Recovery 'ManualReset'
+Slack : -1.644
+TNS   : -5.786
+
+Type  : Fast 1100mV 0C Model Removal 'ManualReset'
+Slack : -0.792
+TNS   : -2.201
+
+Type  : Fast 1100mV 0C Model Removal 'debouncer:instDB|outb'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'ContadorAssincrono:inst23|inst21'
+Slack : 0.831
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'ContadorAssincrono:inst23|inst22'
+Slack : 1.024
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Removal 'ContadorAssincrono:inst23|inst30'
+Slack : 1.589
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'debouncer:instDB|outb'
+Slack : -2.174
+TNS   : -30.883
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -0.731
+TNS   : -10.991
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ManualReset'
+Slack : -0.402
+TNS   : -1.419
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst22'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst30'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'ContadorAssincrono:inst23|inst21'
+Slack : 0.161
+TNS   : 0.000
+
+------------------------------------------------------------
